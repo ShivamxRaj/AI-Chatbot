@@ -1,0 +1,81 @@
+{
+    "greetings": {
+        "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "hi there", "hello there"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Greetings! How may I be of service?"]
+    },
+    "goodbye": {
+        "patterns": ["bye", "goodbye", "see you", "farewell", "take care", "see you later"],
+        "responses": ["Goodbye! Have a great day!", "Thank you for chatting with us. Goodbye!", "See you later! Don't hesitate to return if you have more questions."]
+    },
+    "thanks": {
+        "patterns": ["thank", "thanks", "appreciate", "thank you", "thanks a lot", "thank you very much"],
+        "responses": ["You're welcome!", "Happy to help!", "My pleasure! Is there anything else you'd like to know?"]
+    },
+    "help": {
+        "patterns": ["help", "support", "assistance", "can you help", "i need help"],
+        "responses": ["I can help you with general inquiries, product information, and more. What would you like to know?", "I'm here to help! Please let me know what you need assistance with.", "How can I assist you today? I can help with questions about our products, services, and more."]
+    },
+    "contact": {
+        "patterns": ["contact", "phone", "email", "reach", "speak to someone", "customer service", "support"],
+        "responses": ["You can reach our support team at support@example.com or call us at (123) 456-7890.", "Our customer service team is available 24/7 at support@example.com or (123) 456-7890.", "For immediate assistance, please contact our support team at (123) 456-7890 or email support@example.com."]
+    },
+    "hours": {
+        "patterns": ["hours", "open", "close", "time", "business hours", "when are you open"],
+        "responses": ["We're open 24/7 to assist you!", "Our support is available around the clock, every day of the week.", "You can reach us any time - we're here 24/7!"]
+    },
+    "products": {
+        "patterns": ["products", "what do you sell", "items", "inventory", "catalog", "what products do you have"],
+        "keywords": ["product", "item", "service", "offer", "catalog", "sell"],
+        "responses": ["We offer a wide range of products. Could you tell me what specific product you're interested in?", "Our product catalog includes various categories. What type of product are you looking for?", "I can help you find information about our products. What would you like to know?"]
+    },
+    "pricing": {
+        "patterns": ["how much", "what's the price", "cost", "price", "pricing", "how much does it cost"],
+        "keywords": ["price", "cost", "how much", "pricing", "expensive", "cheap", "affordable"],
+        "responses": ["Pricing varies depending on the product or service. Could you specify which item you're interested in?", "I'd be happy to provide pricing information. Could you let me know which product or service you're asking about?", "Our pricing depends on several factors. Could you provide more details about what you're looking for?"]
+    },
+    "shipping": {
+        "patterns": ["shipping", "delivery", "ship", "when will my order arrive", "shipping time", "delivery time"],
+        "keywords": ["shipping", "delivery", "ship", "arrive", "transit", "shipping options"],
+        "responses": ["Standard shipping typically takes 3-5 business days. Express options are available at checkout.", "Delivery times vary by location. Could you provide your zip code for more accurate information?", "We offer various shipping options. Standard delivery is 3-5 business days, with expedited options available."]
+    },
+    "returns": {
+        "patterns": ["return", "refund", "exchange", "warranty", "return policy", "how to return"],
+        "keywords": ["return", "refund", "exchange", "warranty", "broken", "defective"],
+        "responses": ["We have a 30-day return policy. Please ensure the item is in its original condition with all tags attached.", "For returns or exchanges, please contact our support team with your order number and reason for return.", "Our return policy allows for returns within 30 days of purchase. Do you need help initiating a return?"]
+    },
+    "account": {
+        "patterns": ["account", "login", "sign in", "register", "create account", "forgot password"],
+        "responses": ["You can create an account or log in on our website. Would you like me to guide you through the process?", "For account-related issues, please visit our website or contact support for assistance.", "To create an account, please visit our registration page. Would you like the link?"]
+    },
+    "order_status": {
+        "patterns": ["order status", "where is my order", "track order", "order tracking", "when will I get my order"],
+        "responses": ["To check your order status, please provide your order number.", "You can track your order using the tracking number sent to your email. Would you like me to help you track it?", "For order status updates, please provide your order number or email address."]
+    },
+    "payment": {
+        "patterns": ["payment", "how to pay", "payment methods", "credit card", "paypal", "do you accept"],
+        "responses": ["We accept various payment methods including credit cards, PayPal, and bank transfers.", "You can pay using Visa, Mastercard, American Express, or PayPal. Which would you prefer?", "All major credit cards and PayPal are accepted. Your payment information is secure with us."]
+    },
+    "discounts": {
+        "patterns": ["discount", "coupon", "promo code", "sale", "special offer", "any deals"],
+        "responses": ["We currently have special offers available. Would you like to hear about them?", "Check our website for the latest promotions and discount codes.", "Sign up for our newsletter to receive exclusive discounts and offers!"]
+    },
+    "technical_support": {
+        "patterns": ["technical support", "not working", "broken", "issue", "problem", "trouble"],
+        "responses": ["I'm sorry to hear you're having trouble. Could you describe the issue in more detail?", "Our technical support team can help with that. Please provide details about the problem.", "Let me help you troubleshoot. What exactly is happening?"]
+    },
+    "about": {
+        "patterns": ["about", "who are you", "what is this", "tell me about", "company"],
+        "responses": ["I'm an AI assistant here to help answer your questions and provide support.", "I'm a virtual assistant designed to help with your inquiries. How can I assist you today?", "I'm here to provide information and support. What would you like to know?"]
+    },
+    "location": {
+        "patterns": ["where are you located", "address", "store location", "physical store", "visit us"],
+        "responses": ["We're an online store, but you can find our products at various retailers. Would you like help finding a store near you?", "Our headquarters is located at 123 Business Street, but we primarily operate online.", "You can shop with us online 24/7 at our website."]
+    },
+    "default": {
+        "responses": [
+            "I'm not sure I understand. Could you rephrase that?",
+            "I don't have enough information to answer that. Could you provide more details?",
+            "I'm still learning. Could you ask me something else?"
+        ]
+    }
+}
